@@ -1,5 +1,7 @@
 package io.shapez;
 
+import io.shapez.game.Entity;
+
 import java.util.ArrayList;
 
 public class SerializedGame {

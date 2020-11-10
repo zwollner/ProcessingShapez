@@ -1,0 +1,45 @@
+{
+  "globalConfig": {
+    "tileSize": 32,
+    "halfTileSize": 16,
+    "assetsDpi": 6,
+    "assetsSharpness": 1.5,
+    "shapesSharpness": 1.4,
+    "statisticsGraphDip": 2.5,
+    "statisticsGraphSlices": 100,
+    "analyticsSliceDurationSeconds": 10,
+    "minimumTickRate": 25,
+    "maximumTickRate": 500,
+    "mapChunkSize": 16,
+    "mapChunkOverviewMinZoom": 0.9,
+    "mapChunkWorldSize": null,
+    "beltSpeedItemsPerSecond": 2,
+    "minerSpeedItemsPerSecond": 0,
+    "defaultItemDiameter": 20,
+
+    "itemSpacingOnBelts": 0.63,
+
+    "wiresSpeedItemsPerSecond": 6,
+
+    "undergroundBeltMaxTilesByTier": [5, 9],
+
+    "readerAnalyzeIntervalSeconds": 10,
+
+    "buildingSpeeds": {
+      "cutter": 0.25,
+      "cutterQuad": 0.25,
+      "rotater": 1,
+      "rotaterCCW": 1,
+      "rotater180": 1,
+      "painter": 0.16666666666666666,
+      "painterDouble": 0.125,
+      "painterQuad": 0.5,
+      "mixer": 0.2,
+      "stacker": 0.125
+    },
+    "initialZoom": 1.9,
+    "minZoomLevel": 0.1,
+    "maxZoomLevel": 3,
+    "gameSpeed": 1
+  }
+}

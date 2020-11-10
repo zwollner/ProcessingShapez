@@ -1,14 +1,16 @@
 package io.shapez;
 
+import io.shapez.core.Signal;
+
 public class InputReceiver {
-    String context = "unknown";
-    Signal backButton = new Signal();
+    String context;
+    public Signal backButton = new Signal();
     Signal keydown = new Signal();
     Signal keyup = new Signal();
     Signal pageBlur = new Signal();
     Signal destroyed = new Signal();
 
-    InputReceiver(String context) {
+    public InputReceiver(String context) {
         this.context = context;
     }
 }

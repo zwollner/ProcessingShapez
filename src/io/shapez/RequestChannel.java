@@ -1,7 +1,7 @@
 package io.shapez;
 
 public class RequestChannel {
-    RequestChannel() {
+    public RequestChannel() {
 
     }
 }

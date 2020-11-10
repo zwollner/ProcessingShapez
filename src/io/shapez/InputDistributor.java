@@ -16,4 +16,25 @@ public class InputDistributor {
     void bindToEvents() {
 
     }
+
+    public void popReceiver(InputReceiver receiver) {
+        if (!this.receiverStack.contains(receiver)) {
+            return;
+        }
+        this.receiverStack.remove(receiver);
+    }
+
+    public void pushReciever(InputReceiver receiver) {
+        if (!this.isRecieverAttatched(receiver)) {
+            this.receiverStack.add(receiver);
+        }
+    }
+
+    private boolean isRecieverAttatched(InputReceiver receiver) {
+        return this.receiverStack.contains(receiver);
+    }
+
+    public void installFilter(boolean boundInputFilter) {
+        this.filters.add(boundInputFilter);
+    }
 }

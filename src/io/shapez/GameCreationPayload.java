@@ -1,6 +1,8 @@
 package io.shapez;
 
+import io.shapez.savegame.Savegame;
+
 public class GameCreationPayload {
     boolean fastEnter;
-    Savegame savegame;
+    public Savegame savegame;
 }
